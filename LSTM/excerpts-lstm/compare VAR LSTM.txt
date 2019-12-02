@@ -1,0 +1,3 @@
+I have a multivariate time series data set with 6 variables. 
+My goal is prediction of one variable given the other five variables. 
+I am using VAR(Vector Auto-regression) and LSTM (Long short term memory) to do the same. 

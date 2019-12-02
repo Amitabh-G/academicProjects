@@ -1,0 +1,79 @@
+Number of epochs and batch size:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -394.260643 using {'batch_size': 5, 'epochs': 40}
+-448.766493 (170.940427) with: {'batch_size': 5, 'epochs': 5}
+-426.613016 (151.764565) with: {'batch_size': 5, 'epochs': 10}
+-429.333649 (160.358134) with: {'batch_size': 5, 'epochs': 15}
+-406.925752 (143.329368) with: {'batch_size': 5, 'epochs': 20}
+-410.196423 (157.010392) with: {'batch_size': 5, 'epochs': 25}
+-407.780700 (169.121554) with: {'batch_size': 5, 'epochs': 30}
+-394.260643 (163.592884) with: {'batch_size': 5, 'epochs': 40}
+-398.325512 (154.008260) with: {'batch_size': 5, 'epochs': 50}
+-451.522291 (175.549820) with: {'batch_size': 10, 'epochs': 5}
+-438.373551 (167.837432) with: {'batch_size': 10, 'epochs': 10}
+-438.121158 (172.809308) with: {'batch_size': 10, 'epochs': 15}
+-423.674973 (166.724316) with: {'batch_size': 10, 'epochs': 20}
+-431.314974 (173.973201) with: {'batch_size': 10, 'epochs': 25}
+-418.547384 (160.024317) with: {'batch_size': 10, 'epochs': 30}
+-410.930085 (157.082299) with: {'batch_size': 10, 'epochs': 40}
+-404.586195 (155.440600) with: {'batch_size': 10, 'epochs': 50}
+-447.119709 (167.216863) with: {'batch_size': 15, 'epochs': 5}
+-443.517394 (167.188353) with: {'batch_size': 15, 'epochs': 10}
+-436.417429 (167.726675) with: {'batch_size': 15, 'epochs': 15}
+-430.419043 (158.211803) with: {'batch_size': 15, 'epochs': 20}
+-435.351830 (166.890848) with: {'batch_size': 15, 'epochs': 25}
+-417.006839 (161.581480) with: {'batch_size': 15, 'epochs': 30}
+-415.765258 (168.070736) with: {'batch_size': 15, 'epochs': 40}
+-401.629527 (154.598391) with: {'batch_size': 15, 'epochs': 50}
+
+Initialization:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -277.513435 using {'init_mode': 'he_uniform'}
+-278.409722 (44.722541) with: {'init_mode': 'uniform'}
+-279.324906 (45.559130) with: {'init_mode': 'lecun_uniform'}
+-278.714150 (46.186995) with: {'init_mode': 'normal'}
+-278.118185 (45.542468) with: {'init_mode': 'zero'}
+-278.706465 (45.034554) with: {'init_mode': 'glorot_normal'}
+-284.917001 (41.982990) with: {'init_mode': 'glorot_uniform'}
+-293.797286 (37.899057) with: {'init_mode': 'he_normal'}
+-277.513435 (44.788824) with: {'init_mode': 'he_uniform'}
+
+
+
+
+
+Initialization: (two hidden layers)
+
+Best: -276.681015 using {'init_mode': 'glorot_normal'}
+nan (nan) with: {'init_mode': 'lecun_uniform'}
+-276.681015 (47.193295) with: {'init_mode': 'glorot_normal'}
+-73434983965426.750000 (103852750276114.734375) with: {'init_mode': 'glorot_uniform'}
+-278.607175 (45.483925) with: {'init_mode': 'he_normal'}
+nan (nan) with: {'init_mode': 'he_uniform'}
+
+
+
+Learning rate and momentum:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -276.891162 using {'learn_rate': 1e-06, 'momentum': 0.7}
+nan (nan) with: {'learn_rate': 0.001, 'momentum': 0.7}
+nan (nan) with: {'learn_rate': 0.001, 'momentum': 0.8}
+-278.236155 (45.551325) with: {'learn_rate': 0.001, 'momentum': 0.9}
+-278.507558 (45.241643) with: {'learn_rate': 0.0001, 'momentum': 0.7}
+-284.217756 (51.842766) with: {'learn_rate': 0.0001, 'momentum': 0.8}
+-285.461647 (41.551429) with: {'learn_rate': 0.0001, 'momentum': 0.9}
+nan (nan) with: {'learn_rate': 1e-05, 'momentum': 0.7}
+-279.083081 (48.242154) with: {'learn_rate': 1e-05, 'momentum': 0.8}
+nan (nan) with: {'learn_rate': 1e-05, 'momentum': 0.9}
+-277.387579 (46.065000) with: {'learn_rate': 5e-05, 'momentum': 0.7}
+-291.632650 (43.519872) with: {'learn_rate': 5e-05, 'momentum': 0.8}
+nan (nan) with: {'learn_rate': 5e-05, 'momentum': 0.9}
+-276.891162 (46.949604) with: {'learn_rate': 1e-06, 'momentum': 0.7}
+nan (nan) with: {'learn_rate': 1e-06, 'momentum': 0.8}
+-277.631315 (47.132555) with: {'learn_rate': 1e-06, 'momentum': 0.9}
+-33232350398155080.000000 (46997640642605432.000000) with: {'learn_rate': 5e-06, 'momentum': 0.7}
+-278.286069 (44.760100) with: {'learn_rate': 5e-06, 'momentum': 0.8}
+-278.472914 (46.306936) with: {'learn_rate': 5e-06, 'momentum': 0.9}

@@ -1,0 +1,9 @@
+Diagnostics.
+Weight Initialization.
+Learning Rate.
+Activation Functions.
+Network Topology.
+Batches and Epochs.
+Regularization.
+Optimization and Loss.
+Early Stopping.

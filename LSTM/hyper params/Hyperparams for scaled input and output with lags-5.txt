@@ -1,0 +1,68 @@
+Number of epochs and batch size:
+
+Best: -0.422791 using {'batch_size': 4, 'epochs': 150}
+-0.774812 (0.349274) with: {'batch_size': 4, 'epochs': 100}
+-0.435471 (0.130109) with: {'batch_size': 4, 'epochs': 120}
+-0.422791 (0.157510) with: {'batch_size': 4, 'epochs': 150}
+-0.831606 (0.260074) with: {'batch_size': 6, 'epochs': 100}
+-0.939024 (0.540934) with: {'batch_size': 6, 'epochs': 120}
+-0.616042 (0.222701) with: {'batch_size': 6, 'epochs': 150}
+-1.016564 (0.020695) with: {'batch_size': 8, 'epochs': 100}
+-0.988552 (0.483888) with: {'batch_size': 8, 'epochs': 120}
+-0.909006 (0.176279) with: {'batch_size': 8, 'epochs': 150}
+-0.758892 (0.163110) with: {'batch_size': 10, 'epochs': 100}
+-0.853634 (0.252223) with: {'batch_size': 10, 'epochs': 120}
+-0.527579 (0.116896) with: {'batch_size': 10, 'epochs': 150}
+-0.925377 (0.391676) with: {'batch_size': 15, 'epochs': 100}
+-1.261857 (0.292643) with: {'batch_size': 15, 'epochs': 120}
+-0.797702 (0.540104) with: {'batch_size': 15, 'epochs': 150}
+
+
+Number of epochs and batch size:
+(For both input x and input Y scaled)
+
+Best: -0.357358 using {'batch_size': 2, 'epochs': 300}
+-0.600872 (0.080317) with: {'batch_size': 2, 'epochs': 150}
+-0.445676 (0.108866) with: {'batch_size': 2, 'epochs': 200}
+-0.357358 (0.099887) with: {'batch_size': 2, 'epochs': 300}
+-0.547132 (0.196602) with: {'batch_size': 2, 'epochs': 400}
+-0.496350 (0.048101) with: {'batch_size': 3, 'epochs': 150}
+-0.597862 (0.449779) with: {'batch_size': 3, 'epochs': 200}
+-0.661548 (0.215263) with: {'batch_size': 3, 'epochs': 300}
+-0.664089 (0.364311) with: {'batch_size': 3, 'epochs': 400}
+-0.536562 (0.140851) with: {'batch_size': 4, 'epochs': 150}
+-0.438967 (0.109503) with: {'batch_size': 4, 'epochs': 200}
+-0.836144 (0.601824) with: {'batch_size': 4, 'epochs': 300}
+-1.015081 (0.439889) with: {'batch_size': 4, 'epochs': 400}
+
+
+Combination of parameters: (All standardised features and only one layer.)
+
+Best: -0.234169 using {'recurrent_dropout': 0.6}
+-0.817923 (0.333791) with: {'dropout_rate': 0.4}
+-0.948662 (0.348439) with: {'dropout_rate': 0.5}
+-0.917216 (0.411735) with: {'dropout_rate': 0.6}
+-0.621582 (0.502124) with: {'recurrent_dropout': 0.4}
+-0.288705 (0.076555) with: {'recurrent_dropout': 0.5}
+-0.234169 (0.081225) with: {'recurrent_dropout': 0.6}
+-0.575013 (0.203985) with: {'momentum': 0.7}
+-0.268778 (0.102997) with: {'momentum': 0.8}
+-0.238231 (0.099600) with: {'momentum': 0.9}
+-0.375363 (0.174855) with: {'learn_rate': 0.001}
+-0.425267 (0.210120) with: {'learn_rate': 0.0001}
+-0.288633 (0.147291) with: {'learn_rate': 1e-05}
+-0.244990 (0.089228) with: {'learn_rate': 1e-06}
+-0.289296 (0.061249) with: {'neurons': 5}
+-0.457762 (0.172890) with: {'neurons': 10}
+-0.756319 (0.448682) with: {'neurons': 15}
+-0.492944 (0.115692) with: {'neurons': 20}
+-0.285366 (0.039924) with: {'activation': 'softsign'}
+-0.406784 (0.153839) with: {'activation': 'relu'}
+-0.254529 (0.113380) with: {'activation': 'elu'}
+-0.262656 (0.130619) with: {'activation': 'selu'}
+-0.249784 (0.061563) with: {'init_mode': 'lecun_uniform'}
+-0.326009 (0.114583) with: {'init_mode': 'glorot_normal'}
+-0.514938 (0.140402) with: {'init_mode': 'glorot_uniform'}
+-0.731340 (0.401256) with: {'init_mode': 'he_normal'}
+-0.454466 (0.105192) with: {'init_mode': 'he_uniform'}
+

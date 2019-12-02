@@ -1,0 +1,7 @@
+When we tune the hyper parameters of a deep learning model every possible combination of a 
+hyper parameter results in a different model. And we select an optimal combination based on the 
+metrics of accuracy and looking at the loss curves. 
+My question is exactly this: There is an infinite number of combinations of hyperparams possible. 
+What should the model selection decision be based upon? We know that there are many possible 
+configurations of hyperparams possible that give similar generalization error. 
+And how do I know I have hit the bottom and no other combination of hyperparams will give me better results?

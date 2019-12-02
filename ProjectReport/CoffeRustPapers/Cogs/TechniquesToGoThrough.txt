@@ -1,0 +1,4 @@
+1) Bayesian Networks
+2) Neural net regression
+3) SVM regression
+4) 

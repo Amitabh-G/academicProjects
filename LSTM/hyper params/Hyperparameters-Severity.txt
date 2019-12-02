@@ -1,0 +1,88 @@
+For n_in = 3:
+
+Batch size and epochs:
+
+(150, 1, 23) (150,) (17, 1, 23) (17,)
+Best: -1.726978 using {'batch_size': 6, 'epochs': 40}
+-2.554052 (0.324323) with: {'batch_size': 4, 'epochs': 5}
+-2.936483 (0.874110) with: {'batch_size': 4, 'epochs': 10}
+-2.036911 (0.702664) with: {'batch_size': 4, 'epochs': 20}
+-2.141781 (0.085874) with: {'batch_size': 4, 'epochs': 30}
+-1.991224 (0.372543) with: {'batch_size': 4, 'epochs': 40}
+-2.036489 (0.305253) with: {'batch_size': 4, 'epochs': 50}
+-3.244140 (0.759082) with: {'batch_size': 5, 'epochs': 5}
+-2.570869 (1.032234) with: {'batch_size': 5, 'epochs': 10}
+-2.177402 (0.278225) with: {'batch_size': 5, 'epochs': 20}
+-2.310209 (0.437062) with: {'batch_size': 5, 'epochs': 30}
+-2.052167 (0.343299) with: {'batch_size': 5, 'epochs': 40}
+-2.092183 (0.664693) with: {'batch_size': 5, 'epochs': 50}
+-3.275470 (0.941749) with: {'batch_size': 6, 'epochs': 5}
+-2.861627 (0.134650) with: {'batch_size': 6, 'epochs': 10}
+-2.441457 (0.249505) with: {'batch_size': 6, 'epochs': 20}
+-2.081653 (0.534456) with: {'batch_size': 6, 'epochs': 30}
+-1.726978 (0.382067) with: {'batch_size': 6, 'epochs': 40}
+-2.191253 (0.651320) with: {'batch_size': 6, 'epochs': 50}
+-3.106653 (0.355503) with: {'batch_size': 8, 'epochs': 5}
+-2.952284 (0.757367) with: {'batch_size': 8, 'epochs': 10}
+-2.758130 (0.639589) with: {'batch_size': 8, 'epochs': 20}
+-2.236762 (0.492747) with: {'batch_size': 8, 'epochs': 30}
+-1.977133 (0.318667) with: {'batch_size': 8, 'epochs': 40}
+-2.130112 (0.162706) with: {'batch_size': 8, 'epochs': 50}
+
+For n_in = 0:
+
+Batch size and epochs:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -1.473668 using {'batch_size': 5, 'epochs': 40}
+-2.491111 (0.535823) with: {'batch_size': 4, 'epochs': 5}
+-1.720325 (0.390882) with: {'batch_size': 4, 'epochs': 10}
+-2.210697 (0.533793) with: {'batch_size': 4, 'epochs': 20}
+-1.569145 (0.385104) with: {'batch_size': 4, 'epochs': 30}
+-1.691574 (0.380020) with: {'batch_size': 4, 'epochs': 40}
+-1.539321 (0.308044) with: {'batch_size': 4, 'epochs': 50}
+-1.750025 (0.250217) with: {'batch_size': 5, 'epochs': 5}
+-1.717435 (0.219382) with: {'batch_size': 5, 'epochs': 10}
+-1.529899 (0.394255) with: {'batch_size': 5, 'epochs': 20}
+-1.626699 (0.275421) with: {'batch_size': 5, 'epochs': 30}
+-1.473668 (0.339400) with: {'batch_size': 5, 'epochs': 40}
+-2.028661 (0.750015) with: {'batch_size': 5, 'epochs': 50}
+-2.331201 (0.182521) with: {'batch_size': 6, 'epochs': 5}
+-1.834493 (0.293012) with: {'batch_size': 6, 'epochs': 10}
+-1.884470 (0.745780) with: {'batch_size': 6, 'epochs': 20}
+-1.637788 (0.388235) with: {'batch_size': 6, 'epochs': 30}
+-1.547016 (0.359818) with: {'batch_size': 6, 'epochs': 40}
+-1.680450 (0.399555) with: {'batch_size': 6, 'epochs': 50}
+-2.291617 (0.337787) with: {'batch_size': 8, 'epochs': 5}
+-1.537850 (0.309503) with: {'batch_size': 8, 'epochs': 10}
+-1.737727 (0.391568) with: {'batch_size': 8, 'epochs': 20}
+-1.523305 (0.292823) with: {'batch_size': 8, 'epochs': 30}
+-1.570427 (0.340814) with: {'batch_size': 8, 'epochs': 40}
+-1.775978 (0.607896) with: {'batch_size': 8, 'epochs': 50}
+
+
+Learning rate and momentum:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -4.658212 using {'learn_rate': 1e-06, 'momentum': 0.7}
+-4.846731 (2.824787) with: {'learn_rate': 0.001, 'momentum': 0.7}
+nan (nan) with: {'learn_rate': 0.001, 'momentum': 0.8}
+-5.099584 (2.323042) with: {'learn_rate': 0.001, 'momentum': 0.9}
+-4.811860 (2.797720) with: {'learn_rate': 0.0001, 'momentum': 0.7}
+-4.816862 (2.806640) with: {'learn_rate': 0.0001, 'momentum': 0.8}
+-4.757662 (2.741417) with: {'learn_rate': 0.0001, 'momentum': 0.9}
+-4.824382 (2.820182) with: {'learn_rate': 1e-05, 'momentum': 0.7}
+-4.866407 (2.766727) with: {'learn_rate': 1e-05, 'momentum': 0.8}
+nan (nan) with: {'learn_rate': 1e-05, 'momentum': 0.9}
+-5.424514 (2.032475) with: {'learn_rate': 5e-05, 'momentum': 0.7}
+-62.089045 (78.276432) with: {'learn_rate': 5e-05, 'momentum': 0.8}
+-4.897843 (2.721416) with: {'learn_rate': 5e-05, 'momentum': 0.9}
+-4.658212 (2.643935) with: {'learn_rate': 1e-06, 'momentum': 0.7}
+nan (nan) with: {'learn_rate': 1e-06, 'momentum': 0.8}
+-4.798912 (2.792528) with: {'learn_rate': 1e-06, 'momentum': 0.9}
+-4.759397 (2.798706) with: {'learn_rate': 5e-06, 'momentum': 0.7}
+-4.756556 (2.641463) with: {'learn_rate': 5e-06, 'momentum': 0.8}
+-5.475060 (3.129314) with: {'learn_rate': 5e-06, 'momentum': 0.9}
+
+
+

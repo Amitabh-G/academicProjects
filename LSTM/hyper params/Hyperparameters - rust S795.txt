@@ -1,0 +1,175 @@
+Number of epochs and batch size:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -12.296244 using {'batch_size': 5, 'epochs': 40}
+-14.013125 (4.427586) with: {'batch_size': 5, 'epochs': 5}
+-13.557897 (4.219328) with: {'batch_size': 5, 'epochs': 10}
+-13.291008 (4.404803) with: {'batch_size': 5, 'epochs': 15}
+-12.875397 (4.302135) with: {'batch_size': 5, 'epochs': 20}
+-13.186837 (4.319921) with: {'batch_size': 5, 'epochs': 25}
+-13.029550 (4.430241) with: {'batch_size': 5, 'epochs': 30}
+-12.296244 (4.022275) with: {'batch_size': 5, 'epochs': 40}
+-12.767608 (4.065214) with: {'batch_size': 5, 'epochs': 50}
+-14.026824 (4.445443) with: {'batch_size': 10, 'epochs': 5}
+-13.923641 (4.656680) with: {'batch_size': 10, 'epochs': 10}
+-13.548536 (4.376144) with: {'batch_size': 10, 'epochs': 15}
+-13.515378 (4.523904) with: {'batch_size': 10, 'epochs': 20}
+-13.550167 (4.293508) with: {'batch_size': 10, 'epochs': 25}
+-13.254531 (4.758155) with: {'batch_size': 10, 'epochs': 30}
+-12.967637 (4.256834) with: {'batch_size': 10, 'epochs': 40}
+-12.957976 (4.204265) with: {'batch_size': 10, 'epochs': 50}
+-13.889756 (4.356709) with: {'batch_size': 15, 'epochs': 5}
+-13.759153 (4.636740) with: {'batch_size': 15, 'epochs': 10}
+-13.785587 (4.414865) with: {'batch_size': 15, 'epochs': 15}
+-13.504331 (4.141431) with: {'batch_size': 15, 'epochs': 20}
+-13.519296 (4.592816) with: {'batch_size': 15, 'epochs': 25}
+-13.134562 (4.376165) with: {'batch_size': 15, 'epochs': 30}
+-13.039737 (4.641125) with: {'batch_size': 15, 'epochs': 40}
+-13.227981 (4.328956) with: {'batch_size': 15, 'epochs': 50}
+
+
+
+Learning rate and momentum:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -12.017198 using {'learn_rate': 1e-05, 'momentum': 0.9}
+-12.160222 (2.968609) with: {'learn_rate': 0.001, 'momentum': 0.8}
+-12.237875 (2.964404) with: {'learn_rate': 0.001, 'momentum': 0.9}
+-12.318619 (3.020189) with: {'learn_rate': 0.0001, 'momentum': 0.8}
+-12.178339 (2.838460) with: {'learn_rate': 0.0001, 'momentum': 0.9}
+-12.071415 (2.755089) with: {'learn_rate': 1e-05, 'momentum': 0.8}
+-12.017198 (3.207441) with: {'learn_rate': 1e-05, 'momentum': 0.9}
+
+
+kernel_initializer:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -11.096281 using {'init_mode': 'lecun_uniform'}
+-13.166325 (3.031169) with: {'init_mode': 'uniform'}
+-11.096281 (2.787031) with: {'init_mode': 'lecun_uniform'}
+-12.255628 (3.816368) with: {'init_mode': 'normal'}
+-12.260011 (3.813073) with: {'init_mode': 'zero'}
+-12.298093 (2.418527) with: {'init_mode': 'glorot_normal'}
+-12.258918 (3.817816) with: {'init_mode': 'glorot_uniform'}
+-12.965695 (2.600708) with: {'init_mode': 'he_normal'}
+-11.399734 (2.995128) with: {'init_mode': 'he_uniform'}
+
+Activation:
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -10.862590 using {'activation': 'softplus'}
+-13.426809 (2.349794) with: {'activation': 'softmax'}
+-10.862590 (2.647676) with: {'activation': 'softplus'}
+-15.826857 (2.032469) with: {'activation': 'softsign'}
+-11.390090 (3.005434) with: {'activation': 'relu'}
+-11.959721 (3.767031) with: {'activation': 'tanh'}
+-12.379231 (1.120524) with: {'activation': 'sigmoid'}
+-12.673024 (3.269380) with: {'activation': 'hard_sigmoid'}
+-12.260412 (3.816844) with: {'activation': 'linear'}
+
+
+Gradient descent Optimizer 
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -11.204180 using {'optimizer': 'SGD'}
+-11.204180 (3.236306) with: {'optimizer': 'SGD'}
+-13.500283 (1.264754) with: {'optimizer': 'RMSprop'}
+-13.520687 (2.374126) with: {'optimizer': 'Adagrad'}
+-12.775155 (2.282296) with: {'optimizer': 'Adadelta'}
+-14.732762 (4.781822) with: {'optimizer': 'Adam'}
+-13.216469 (3.448763) with: {'optimizer': 'Adamax'}
+-12.683349 (2.047046) with: {'optimizer': 'Nadam'}
+
+Number of neurons:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -11.013382 using {'neurons': 30}
+-12.248961 (3.825833) with: {'neurons': 1}
+-12.563487 (3.916746) with: {'neurons': 5}
+-12.212371 (3.388024) with: {'neurons': 10}
+-12.477388 (3.893724) with: {'neurons': 15}
+-11.548840 (3.197626) with: {'neurons': 20}
+-12.417590 (4.005578) with: {'neurons': 25}
+-11.013382 (3.198484) with: {'neurons': 30}
+
+Dropout rate:
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -11.454880 using {'dropout_rate': 0.5}
+-12.204652 (3.593790) with: {'dropout_rate': 0.0}
+-12.989387 (2.305274) with: {'dropout_rate': 0.1}
+-11.715432 (3.501504) with: {'dropout_rate': 0.2}
+-12.441897 (3.604821) with: {'dropout_rate': 0.3}
+-11.757846 (3.199677) with: {'dropout_rate': 0.4}
+-11.454880 (3.968352) with: {'dropout_rate': 0.5}
+-12.091010 (3.711319) with: {'dropout_rate': 0.6}
+-12.281889 (3.825300) with: {'dropout_rate': 0.7}
+-12.263557 (3.825707) with: {'dropout_rate': 0.8}
+-12.260198 (3.812766) with: {'dropout_rate': 0.9}
+
+
+
+
+
+Hyperparams trained together:
+
+Best: -0.226467 using {'init_mode': 'he_normal'}
+-0.339487 (0.102132) with: {'recurrent_dropout': 0.3}
+-0.451892 (0.228080) with: {'recurrent_dropout': 0.4}
+-0.447699 (0.046729) with: {'recurrent_dropout': 0.5}
+-0.270415 (0.173173) with: {'recurrent_dropout': 0.6}
+-0.312907 (0.116573) with: {'recurrent_dropout': 0.7}
+-0.432055 (0.182092) with: {'batch_size': 3}
+-0.369729 (0.124247) with: {'batch_size': 4}
+-0.507440 (0.297259) with: {'batch_size': 5}
+-0.570003 (0.315609) with: {'batch_size': 6}
+-0.406930 (0.134421) with: {'batch_size': 8}
+-0.266748 (0.062888) with: {'batch_size': 9}
+-0.251158 (0.103158) with: {'neurons': 3}
+-0.276785 (0.121043) with: {'neurons': 4}
+-0.359793 (0.125452) with: {'neurons': 5}
+-0.440308 (0.158082) with: {'neurons': 6}
+-0.344501 (0.164499) with: {'neurons': 8}
+-0.338021 (0.165954) with: {'neurons': 9}
+-0.359034 (0.179146) with: {'neurons': 10}
+-0.435167 (0.163514) with: {'neurons': 11}
+-0.380382 (0.101326) with: {'neurons': 12}
+-0.579929 (0.216024) with: {'init_mode': 'glorot_normal'}
+-0.362813 (0.160753) with: {'init_mode': 'glorot_uniform'}
+-0.226467 (0.099497) with: {'init_mode': 'he_normal'}
+-0.253999 (0.062056) with: {'init_mode': 'he_uniform'}
+
+
+
+
+Best: -0.227886 using {'init_mode': 'he_normal'}
+-0.341049 (0.102570) with: {'recurrent_dropout': 0.3}
+-0.452778 (0.228879) with: {'recurrent_dropout': 0.4}
+-0.448353 (0.047574) with: {'recurrent_dropout': 0.5}
+-0.272495 (0.174484) with: {'recurrent_dropout': 0.6}
+-0.312667 (0.116389) with: {'recurrent_dropout': 0.7}
+-0.431942 (0.182038) with: {'batch_size': 3}
+-0.369684 (0.124365) with: {'batch_size': 4}
+-0.507977 (0.297392) with: {'batch_size': 5}
+-0.570500 (0.316098) with: {'batch_size': 6}
+-0.406341 (0.134319) with: {'batch_size': 8}
+-0.266691 (0.062381) with: {'batch_size': 9}
+-0.251285 (0.102977) with: {'neurons': 3}
+-0.276729 (0.121547) with: {'neurons': 4}
+-0.369165 (0.129323) with: {'neurons': 5}
+-0.440362 (0.158044) with: {'neurons': 6}
+-0.342392 (0.162760) with: {'neurons': 8}
+-0.337849 (0.166034) with: {'neurons': 9}
+-0.358961 (0.179053) with: {'neurons': 10}
+-0.430778 (0.161581) with: {'neurons': 11}
+-0.379980 (0.101684) with: {'neurons': 12}
+-0.579694 (0.215893) with: {'init_mode': 'glorot_normal'}
+-0.362953 (0.160793) with: {'init_mode': 'glorot_uniform'}
+-0.227886 (0.097886) with: {'init_mode': 'he_normal'}
+-0.253786 (0.061987) with: {'init_mode': 'he_uniform'}
+-0.628627 (0.251730) with: {'learn_rate': 0.001}
+-0.406911 (0.160531) with: {'learn_rate': 0.002}
+-0.323322 (0.135167) with: {'learn_rate': 0.003}
+-0.296762 (0.189006) with: {'learn_rate': 0.005}
+-0.358832 (0.119861) with: {'learn_rate': 0.0001}
+-0.372517 (0.157107) with: {'learn_rate': 0.0002}
+-0.292237 (0.020471) with: {'learn_rate': 0.0003}
+
+

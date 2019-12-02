@@ -1,0 +1,81 @@
+Number of epochs and batch size:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -12.296244 using {'batch_size': 5, 'epochs': 40}
+-14.013125 (4.427586) with: {'batch_size': 5, 'epochs': 5}
+-13.557897 (4.219328) with: {'batch_size': 5, 'epochs': 10}
+-13.291008 (4.404803) with: {'batch_size': 5, 'epochs': 15}
+-12.875397 (4.302135) with: {'batch_size': 5, 'epochs': 20}
+-13.186837 (4.319921) with: {'batch_size': 5, 'epochs': 25}
+-13.029550 (4.430241) with: {'batch_size': 5, 'epochs': 30}
+-12.296244 (4.022275) with: {'batch_size': 5, 'epochs': 40}
+-12.767608 (4.065214) with: {'batch_size': 5, 'epochs': 50}
+-14.026824 (4.445443) with: {'batch_size': 10, 'epochs': 5}
+-13.923641 (4.656680) with: {'batch_size': 10, 'epochs': 10}
+-13.548536 (4.376144) with: {'batch_size': 10, 'epochs': 15}
+-13.515378 (4.523904) with: {'batch_size': 10, 'epochs': 20}
+-13.550167 (4.293508) with: {'batch_size': 10, 'epochs': 25}
+-13.254531 (4.758155) with: {'batch_size': 10, 'epochs': 30}
+-12.967637 (4.256834) with: {'batch_size': 10, 'epochs': 40}
+-12.957976 (4.204265) with: {'batch_size': 10, 'epochs': 50}
+-13.889756 (4.356709) with: {'batch_size': 15, 'epochs': 5}
+-13.759153 (4.636740) with: {'batch_size': 15, 'epochs': 10}
+-13.785587 (4.414865) with: {'batch_size': 15, 'epochs': 15}
+-13.504331 (4.141431) with: {'batch_size': 15, 'epochs': 20}
+-13.519296 (4.592816) with: {'batch_size': 15, 'epochs': 25}
+-13.134562 (4.376165) with: {'batch_size': 15, 'epochs': 30}
+-13.039737 (4.641125) with: {'batch_size': 15, 'epochs': 40}
+-13.227981 (4.328956) with: {'batch_size': 15, 'epochs': 50}
+
+
+
+Learning rate and momentum:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -12.017198 using {'learn_rate': 1e-05, 'momentum': 0.9}
+-12.160222 (2.968609) with: {'learn_rate': 0.001, 'momentum': 0.8}
+-12.237875 (2.964404) with: {'learn_rate': 0.001, 'momentum': 0.9}
+-12.318619 (3.020189) with: {'learn_rate': 0.0001, 'momentum': 0.8}
+-12.178339 (2.838460) with: {'learn_rate': 0.0001, 'momentum': 0.9}
+-12.071415 (2.755089) with: {'learn_rate': 1e-05, 'momentum': 0.8}
+-12.017198 (3.207441) with: {'learn_rate': 1e-05, 'momentum': 0.9}
+
+
+kernel_initializer:
+
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -11.096281 using {'init_mode': 'lecun_uniform'}
+-13.166325 (3.031169) with: {'init_mode': 'uniform'}
+-11.096281 (2.787031) with: {'init_mode': 'lecun_uniform'}
+-12.255628 (3.816368) with: {'init_mode': 'normal'}
+-12.260011 (3.813073) with: {'init_mode': 'zero'}
+-12.298093 (2.418527) with: {'init_mode': 'glorot_normal'}
+-12.258918 (3.817816) with: {'init_mode': 'glorot_uniform'}
+-12.965695 (2.600708) with: {'init_mode': 'he_normal'}
+-11.399734 (2.995128) with: {'init_mode': 'he_uniform'}
+
+Activation:
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -10.862590 using {'activation': 'softplus'}
+-13.426809 (2.349794) with: {'activation': 'softmax'}
+-10.862590 (2.647676) with: {'activation': 'softplus'}
+-15.826857 (2.032469) with: {'activation': 'softsign'}
+-11.390090 (3.005434) with: {'activation': 'relu'}
+-11.959721 (3.767031) with: {'activation': 'tanh'}
+-12.379231 (1.120524) with: {'activation': 'sigmoid'}
+-12.673024 (3.269380) with: {'activation': 'hard_sigmoid'}
+-12.260412 (3.816844) with: {'activation': 'linear'}
+
+
+Gradient descent Optimizer 
+(150, 1, 5) (150,) (20, 1, 5) (20,)
+Best: -11.204180 using {'optimizer': 'SGD'}
+-11.204180 (3.236306) with: {'optimizer': 'SGD'}
+-13.500283 (1.264754) with: {'optimizer': 'RMSprop'}
+-13.520687 (2.374126) with: {'optimizer': 'Adagrad'}
+-12.775155 (2.282296) with: {'optimizer': 'Adadelta'}
+-14.732762 (4.781822) with: {'optimizer': 'Adam'}
+-13.216469 (3.448763) with: {'optimizer': 'Adamax'}
+-12.683349 (2.047046) with: {'optimizer': 'Nadam'}
+
+

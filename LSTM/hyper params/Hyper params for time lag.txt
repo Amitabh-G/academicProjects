@@ -1,0 +1,43 @@
+Epoch and batch size:
+
+Best: -290.622775 using {'batch_size': 6, 'epochs': 100}
+-300.099133 (73.060857) with: {'batch_size': 4, 'epochs': 100}
+-297.423634 (73.843760) with: {'batch_size': 4, 'epochs': 120}
+-296.470012 (71.701666) with: {'batch_size': 4, 'epochs': 150}
+-290.622775 (81.178872) with: {'batch_size': 6, 'epochs': 100}
+-297.375863 (72.600407) with: {'batch_size': 6, 'epochs': 120}
+-296.809870 (71.262788) with: {'batch_size': 6, 'epochs': 150}
+-299.190103 (71.824728) with: {'batch_size': 8, 'epochs': 100}
+-295.447058 (73.013383) with: {'batch_size': 8, 'epochs': 120}
+nan (nan) with: {'batch_size': 8, 'epochs': 150}
+nan (nan) with: {'batch_size': 10, 'epochs': 100}
+-296.981898 (73.095915) with: {'batch_size': 10, 'epochs': 120}
+-296.281841 (72.611090) with: {'batch_size': 10, 'epochs': 150}
+-296.000561 (70.636457) with: {'batch_size': 15, 'epochs': 100}
+-296.029302 (75.535576) with: {'batch_size': 15, 'epochs': 120}
+-295.706356 (73.725951) with: {'batch_size': 15, 'epochs': 150}
+
+Initialization:
+
+Best: -292.206623 using {'init_mode': 'glorot_uniform'}
+-297.298516 (73.646909) with: {'init_mode': 'lecun_uniform'}
+-298.985144 (70.781455) with: {'init_mode': 'glorot_normal'}
+-292.206623 (67.775371) with: {'init_mode': 'glorot_uniform'}
+-296.442875 (73.019433) with: {'init_mode': 'he_normal'}
+-296.839727 (74.184237) with: {'init_mode': 'he_uniform'}
+
+Learning rate and momentum:
+
+Best: -284.306341 using {'learn_rate': 1e-06, 'momentum': 0.9}
+-294.684279 (74.814765) with: {'learn_rate': 1e-05, 'momentum': 0.7}
+-298.169098 (72.841051) with: {'learn_rate': 1e-05, 'momentum': 0.8}
+-287.009051 (71.262143) with: {'learn_rate': 1e-05, 'momentum': 0.9}
+-295.451391 (76.475217) with: {'learn_rate': 5e-05, 'momentum': 0.7}
+nan (nan) with: {'learn_rate': 5e-05, 'momentum': 0.8}
+-297.247287 (73.739872) with: {'learn_rate': 5e-05, 'momentum': 0.9}
+-295.257365 (73.041316) with: {'learn_rate': 1e-06, 'momentum': 0.7}
+-291.609597 (76.929948) with: {'learn_rate': 1e-06, 'momentum': 0.8}
+-284.306341 (73.105399) with: {'learn_rate': 1e-06, 'momentum': 0.9}
+nan (nan) with: {'learn_rate': 5e-06, 'momentum': 0.7}
+-297.137173 (74.083840) with: {'learn_rate': 5e-06, 'momentum': 0.8}
+nan (nan) with: {'learn_rate': 5e-06, 'momentum': 0.9}

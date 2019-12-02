@@ -1,0 +1,101 @@
+Batch size and epochs for severity S795:
+
+Best: -0.319612 using {'batch_size': 2, 'epochs': 200}
+-0.435862 (0.421360) with: {'batch_size': 2, 'epochs': 50}
+-0.339331 (0.263111) with: {'batch_size': 2, 'epochs': 100}
+-0.348134 (0.295601) with: {'batch_size': 2, 'epochs': 150}
+-0.319612 (0.231287) with: {'batch_size': 2, 'epochs': 200}
+-0.502416 (0.528045) with: {'batch_size': 3, 'epochs': 50}
+-0.381690 (0.277764) with: {'batch_size': 3, 'epochs': 100}
+-0.462642 (0.415269) with: {'batch_size': 3, 'epochs': 150}
+-0.582691 (0.493046) with: {'batch_size': 3, 'epochs': 200}
+-0.399142 (0.334151) with: {'batch_size': 4, 'epochs': 50}
+-0.405717 (0.333801) with: {'batch_size': 4, 'epochs': 100}
+-0.340393 (0.251630) with: {'batch_size': 4, 'epochs': 150}
+-0.479877 (0.302727) with: {'batch_size': 4, 'epochs': 200}
+-0.623998 (0.584944) with: {'batch_size': 5, 'epochs': 50}
+-0.452192 (0.448143) with: {'batch_size': 5, 'epochs': 100}
+-0.332230 (0.278431) with: {'batch_size': 5, 'epochs': 150}
+-0.443867 (0.405986) with: {'batch_size': 5, 'epochs': 200}
+
+Optimizer:
+
+Best: -0.778064 using {'optimizer': 'Adagrad'}
+-1.581806 (0.848080) with: {'optimizer': 'SGD'}
+-0.863118 (0.634247) with: {'optimizer': 'RMSprop'}
+-0.778064 (0.620869) with: {'optimizer': 'Adagrad'}
+-1.049956 (0.655883) with: {'optimizer': 'Adadelta'}
+-1.105682 (0.773070) with: {'optimizer': 'Adam'}
+-1.025703 (0.634963) with: {'optimizer': 'Adamax'}
+-1.267816 (0.969963) with: {'optimizer': 'Nadam'}
+
+
+
+Best: -0.340701 using {'recurrent_dropout': 0.7}
+-0.416843 (0.381473) with: {'dropout_rate': 0.3}
+-0.491478 (0.508390) with: {'dropout_rate': 0.4}
+-0.494705 (0.493038) with: {'dropout_rate': 0.5}
+-0.524996 (0.537247) with: {'dropout_rate': 0.6}
+-0.551972 (0.555902) with: {'dropout_rate': 0.7}
+-0.473662 (0.449605) with: {'recurrent_dropout': 0.3}
+-0.488139 (0.471850) with: {'recurrent_dropout': 0.4}
+-0.409435 (0.328516) with: {'recurrent_dropout': 0.5}
+-0.506760 (0.437345) with: {'recurrent_dropout': 0.6}
+-0.340701 (0.249639) with: {'recurrent_dropout': 0.7}
+
+
+
+Best: -0.504470 using {'neurons': 30}
+-0.592760 (0.375940) with: {'neurons': 1}
+-0.796626 (0.491789) with: {'neurons': 5}
+-0.524190 (0.427115) with: {'neurons': 10}
+-0.554361 (0.463505) with: {'neurons': 15}
+-0.511063 (0.428624) with: {'neurons': 20}
+-0.533668 (0.445381) with: {'neurons': 25}
+-0.504470 (0.466690) with: {'neurons': 30}
+
+Best: -0.374388 using {'init_mode': 'glorot_normal'}
+-0.529233 (0.492018) with: {'init_mode': 'lecun_uniform'}
+-0.374388 (0.356688) with: {'init_mode': 'glorot_normal'}
+-0.445009 (0.406557) with: {'init_mode': 'glorot_uniform'}
+-0.439689 (0.343324) with: {'init_mode': 'he_normal'}
+-0.531431 (0.514569) with: {'init_mode': 'he_uniform'}
+
+
+Hyperparams together:
+
+Best: -0.286127 using {'init_mode': 'he_uniform'}
+-0.697040 (0.647642) with: {'dropout_rate': 0.4}
+-0.751205 (0.656547) with: {'dropout_rate': 0.5}
+-0.721243 (0.636471) with: {'dropout_rate': 0.6}
+-0.395172 (0.382061) with: {'recurrent_dropout': 0.4}
+-0.687196 (0.758017) with: {'recurrent_dropout': 0.5}
+-0.429802 (0.337373) with: {'recurrent_dropout': 0.6}
+-0.332750 (0.205481) with: {'learn_rate': 0.001}
+-0.493984 (0.390395) with: {'learn_rate': 0.01}
+-0.505119 (0.472788) with: {'learn_rate': 0.0001}
+-0.394373 (0.330894) with: {'learn_rate': 1e-05}
+-0.390533 (0.373371) with: {'learn_rate': 1e-06}
+-0.490547 (0.283888) with: {'neurons': 2}
+-0.441790 (0.448966) with: {'neurons': 3}
+-0.396177 (0.344418) with: {'neurons': 4}
+-0.383652 (0.234981) with: {'neurons': 5}
+-0.331107 (0.231321) with: {'neurons': 10}
+-0.415889 (0.336521) with: {'activation': 'softsign'}
+-0.324154 (0.275666) with: {'activation': 'relu'}
+-0.347549 (0.243099) with: {'activation': 'elu'}
+-0.418927 (0.418223) with: {'activation': 'selu'}
+-0.414874 (0.377040) with: {'init_mode': 'lecun_uniform'}
+-0.484216 (0.415644) with: {'init_mode': 'glorot_normal'}
+-0.362506 (0.282680) with: {'init_mode': 'glorot_uniform'}
+-0.350650 (0.301070) with: {'init_mode': 'he_normal'}
+-0.286127 (0.208978) with: {'init_mode': 'he_uniform'}
+-0.635834 (0.681918) with: {'optimizer': 'SGD'}
+-0.500152 (0.468513) with: {'optimizer': 'RMSprop'}
+-0.421576 (0.342375) with: {'optimizer': 'Adagrad'}
+-0.452195 (0.432995) with: {'optimizer': 'Adadelta'}
+-0.318090 (0.202847) with: {'optimizer': 'Adam'}
+-0.340014 (0.271758) with: {'optimizer': 'Adamax'}
+-0.290131 (0.223782) with: {'optimizer': 'Nadam'}
+
+
