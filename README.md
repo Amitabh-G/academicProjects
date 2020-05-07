@@ -1,1 +1,1 @@
-# academicProjects
+# Final Year Project Master of management IISc
